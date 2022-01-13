@@ -1,0 +1,71 @@
+{
+  "current-age": 27,
+  "birth-month": 8,
+  "retirement-age": 55,
+  "cpf": {
+    "oa": {
+      "balance": 11702.16,
+      "interest-rate": 2.5,
+      "extra-interest-cap": 20000
+    },
+    "sa": {
+      "balance": 75842.05,
+      "interest-rate": 4
+    },
+    "ma": {
+      "balance": 9834.50,
+      "interest-rate": 4,
+      "max-allowable-balance-inflation-rate": 4.7,
+      "max-allowable-balance": 66000
+    },
+    "extra-interest-rate": 1,
+    "total-extra-interest-cap": 60000,
+    "salary-limit": 6000,
+    "transfer-from-oa-to-sa-monthly": false,
+    "monthly-cash-top-up-to-sa": 3300,
+    "frs-inflation-rate": 3,
+    "frs": 192000,
+    "contribution-rate": [
+      {
+        "lower-limit": 0,
+        "upper-limit": 35,
+        "oa": 23,
+        "sa": 6,
+        "ma": 8
+      },
+      {
+        "lower-limit": 36,
+        "upper-limit": 45,
+        "oa": 21,
+        "sa": 7,
+        "ma": 9
+      },
+      {
+        "lower-limit": 46,
+        "upper-limit": 50,
+        "oa": 19,
+        "sa": 8,
+        "ma": 10
+      },
+      {
+        "lower-limit": 51,
+        "upper-limit": 55,
+        "oa": 15,
+        "sa": 11.5,
+        "ma": 10.5
+      }
+    ]
+  },
+  "salary": [
+    {
+      "lower-limit": 26,
+      "upper-limit": 26,
+      "salary": 4500
+    },
+    {
+      "lower-limit": 27,
+      "upper-limit": 55,
+      "salary": 6000
+    }
+  ]
+}
